@@ -1,0 +1,23 @@
+<Properties ModelVersion="1.1.2">
+  <General Title="Mobspot" Version="1.0.0" Vendor="Mobspot Inc." Description="A Social Network of Mobile App Users"/>
+  <Application Type="BlackBerry Application" MainMIDletName="" MainArgs="" HomeScreenPosition="0" StartupTier="7" IsSystemModule="false" IsAutostartup="false"/>
+  <Resources hasTitleResource="false" TitleResourceBundleName="" TitleResourceBundleRelativePath="" TitleResourceBundleClassName="" TitleResourceBundleKey="" DescriptionId="">
+    <Icons>
+      <Icon CanonicalFileName="res/logo2.png" IsFocus="false"/>
+    </Icons>
+  </Resources>
+  <Compile OutputCompilerMessages="true" ConvertImages="false" CreateWarningForNoExportedRoutine="true" CompressResources="false" AliasList="">
+    <PreprocessorDefines>
+      <PreprocessorTag IsActive="false" PreprocessorDefine="BB4.5" Scope="0"/>
+      <PreprocessorTag IsActive="false" PreprocessorDefine="BB5.0" Scope="0"/>
+    </PreprocessorDefines>
+  </Compile>
+  <Packaging OutputFileName="Mobspot" OutputFolder="deliverables" PreBuildStep="" PostBuildStep="" CleanStep="" GenerateALXFile="true">
+    <AlxFiles/>
+  </Packaging>
+  <HiddenProperties>
+    <ClassProtection/>
+    <PackageProtection/>
+  </HiddenProperties>
+  <AlternateEntryPoints/>
+</Properties>
